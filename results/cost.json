@@ -1,0 +1,54 @@
+{
+ "0.9": {
+  "target_sparsity": 0.9,
+  "test_acc_via_sparse_path": 0.9832869080779945,
+  "flops_dense": 51712,
+  "flops_sparse": 5172,
+  "flop_reduction_x": 9.998453209590101,
+  "dense_bytes_fp64": 206848,
+  "csc_bytes_int64_idx_fp64": 43528,
+  "wallclock_us": {
+   "1": {
+    "sparse_numpy": 26.972000000569096,
+    "dense_blas": 9.90550000778967,
+    "speedup_vs_dense_blas": 0.3672512237720847
+   },
+   "32": {
+    "sparse_numpy": 272.7890000073785,
+    "dense_blas": 54.97500001183653,
+    "speedup_vs_dense_blas": 0.2015293872199742
+   },
+   "512": {
+    "sparse_numpy": 15679.658000010477,
+    "dense_blas": 844.8349999525817,
+    "speedup_vs_dense_blas": 0.05388095836988391
+   }
+  }
+ },
+ "0.98": {
+  "target_sparsity": 0.98,
+  "test_acc_via_sparse_path": 0.9777158774373259,
+  "flops_dense": 51712,
+  "flops_sparse": 1034,
+  "flop_reduction_x": 50.011605415860735,
+  "dense_bytes_fp64": 206848,
+  "csc_bytes_int64_idx_fp64": 10424,
+  "wallclock_us": {
+   "1": {
+    "sparse_numpy": 29.39550000746749,
+    "dense_blas": 14.617500028180075,
+    "speedup_vs_dense_blas": 0.49726999113696707
+   },
+   "32": {
+    "sparse_numpy": 115.93499999662527,
+    "dense_blas": 54.88950000653858,
+    "speedup_vs_dense_blas": 0.47345064051525726
+   },
+   "512": {
+    "sparse_numpy": 2576.9080000372924,
+    "dense_blas": 941.3665000010951,
+    "speedup_vs_dense_blas": 0.3653085403077921
+   }
+  }
+ }
+}

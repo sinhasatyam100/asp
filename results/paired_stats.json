@@ -1,0 +1,167 @@
+{
+ "saliency@0.5": {
+  "mean_diff_vs_magnitude": 0.005013927576601673,
+  "sd_diff": 0.004697905530426574,
+  "ci95_lo": 0.002228412256267409,
+  "ci95_hi": 0.007799442896935937,
+  "wins": 7,
+  "ties": 3,
+  "losses": 0,
+  "n": 10,
+  "ci_excludes_zero": true
+ },
+ "fisher@0.5": {
+  "mean_diff_vs_magnitude": 0.0025069637883008535,
+  "sd_diff": 0.003817048243471573,
+  "ci95_lo": 0.0002785515320334553,
+  "ci95_hi": 0.004735376044568263,
+  "wins": 5,
+  "ties": 4,
+  "losses": 1,
+  "n": 10,
+  "ci_excludes_zero": true
+ },
+ "saliency+regrow@0.5": {
+  "mean_diff_vs_magnitude": 0.005849582172701961,
+  "sd_diff": 0.005161352686977649,
+  "ci95_lo": 0.0030640668523676863,
+  "ci95_hi": 0.00891364902506967,
+  "wins": 9,
+  "ties": 1,
+  "losses": 0,
+  "n": 10,
+  "ci_excludes_zero": true
+ },
+ "saliency@0.75": {
+  "mean_diff_vs_magnitude": 0.002785515320334264,
+  "sd_diff": 0.006565522573691224,
+  "ci95_lo": -0.0011142061281336879,
+  "ci95_hi": 0.006685236768802205,
+  "wins": 5,
+  "ties": 2,
+  "losses": 3,
+  "n": 10,
+  "ci_excludes_zero": false
+ },
+ "fisher@0.75": {
+  "mean_diff_vs_magnitude": 0.002228412256267409,
+  "sd_diff": 0.008073190387849236,
+  "ci95_lo": -0.0019568245125348156,
+  "ci95_hi": 0.007242339832869071,
+  "wins": 4,
+  "ties": 2,
+  "losses": 4,
+  "n": 10,
+  "ci_excludes_zero": false
+ },
+ "saliency+regrow@0.75": {
+  "mean_diff_vs_magnitude": 0.0030640668523676863,
+  "sd_diff": 0.009045183939058524,
+  "ci95_lo": -0.0022284122562673874,
+  "ci95_hi": 0.00835654596100277,
+  "wins": 6,
+  "ties": 0,
+  "losses": 4,
+  "n": 10,
+  "ci_excludes_zero": false
+ },
+ "saliency@0.9": {
+  "mean_diff_vs_magnitude": 0.0005571030640668551,
+  "sd_diff": 0.005842946229360175,
+  "ci95_lo": -0.0030640668523676754,
+  "ci95_hi": 0.003899721448467952,
+  "wins": 6,
+  "ties": 1,
+  "losses": 3,
+  "n": 10,
+  "ci_excludes_zero": false
+ },
+ "fisher@0.9": {
+  "mean_diff_vs_magnitude": -0.002228412256267409,
+  "sd_diff": 0.00752031819176103,
+  "ci95_lo": -0.006406685236768817,
+  "ci95_hi": 0.002228412256267409,
+  "wins": 4,
+  "ties": 0,
+  "losses": 6,
+  "n": 10,
+  "ci_excludes_zero": false
+ },
+ "saliency+regrow@0.9": {
+  "mean_diff_vs_magnitude": -0.0002785515320334331,
+  "sd_diff": 0.007818211489329934,
+  "ci95_lo": -0.005013927576601662,
+  "ci95_hi": 0.004178272980501363,
+  "wins": 5,
+  "ties": 1,
+  "losses": 4,
+  "n": 10,
+  "ci_excludes_zero": false
+ },
+ "saliency@0.95": {
+  "mean_diff_vs_magnitude": -0.001671309192200554,
+  "sd_diff": 0.005753735704672105,
+  "ci95_lo": -0.005013927576601673,
+  "ci95_hi": 0.001671309192200554,
+  "wins": 3,
+  "ties": 2,
+  "losses": 5,
+  "n": 10,
+  "ci_excludes_zero": false
+ },
+ "fisher@0.95": {
+  "mean_diff_vs_magnitude": -0.0019498607242339871,
+  "sd_diff": 0.008715097515511458,
+  "ci95_lo": -0.0069637883008356605,
+  "ci95_hi": 0.003064066852367675,
+  "wins": 3,
+  "ties": 2,
+  "losses": 5,
+  "n": 10,
+  "ci_excludes_zero": false
+ },
+ "saliency+regrow@0.95": {
+  "mean_diff_vs_magnitude": -0.0030640668523676863,
+  "sd_diff": 0.00481571122744285,
+  "ci95_lo": -0.005849582172701951,
+  "ci95_hi": -0.0002785515320334442,
+  "wins": 2,
+  "ties": 2,
+  "losses": 6,
+  "n": 10,
+  "ci_excludes_zero": true
+ },
+ "saliency@0.98": {
+  "mean_diff_vs_magnitude": -0.004735376044568251,
+  "sd_diff": 0.0186187848412605,
+  "ci95_lo": -0.015877437325905297,
+  "ci95_hi": 0.005849582172701939,
+  "wins": 3,
+  "ties": 2,
+  "losses": 5,
+  "n": 10,
+  "ci_excludes_zero": false
+ },
+ "fisher@0.98": {
+  "mean_diff_vs_magnitude": 0.002228412256267398,
+  "sd_diff": 0.011126575434685423,
+  "ci95_lo": -0.004178272980501408,
+  "ci95_hi": 0.008913649025069637,
+  "wins": 4,
+  "ties": 3,
+  "losses": 3,
+  "n": 10,
+  "ci_excludes_zero": false
+ },
+ "saliency+regrow@0.98": {
+  "mean_diff_vs_magnitude": 0.00250696378830082,
+  "sd_diff": 0.007927715582594834,
+  "ci95_lo": -0.0019498607242340094,
+  "ci95_hi": 0.007242339832869071,
+  "wins": 5,
+  "ties": 1,
+  "losses": 4,
+  "n": 10,
+  "ci_excludes_zero": false
+ }
+}
